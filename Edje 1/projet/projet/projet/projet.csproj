@@ -1,0 +1,103 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\1200px-Wii_nunchuk_controller_side.jpg" />
+    <None Remove="images\champi 1 up.png" />
+    <None Remove="images\champi feu.png" />
+    <None Remove="images\champi glace.png" />
+    <None Remove="images\champi.png" />
+    <None Remove="images\comete.png" />
+    <None Remove="images\edge-firefox.png" />
+    <None Remove="images\EDJE.png" />
+    <None Remove="images\H2x1_generic_WiiU_image1280w.jpg" />
+    <None Remove="images\images.jpeg" />
+    <None Remove="images\manette-nintendo-wii-wiimote-rvl-003 copie.jpg" />
+    <None Remove="images\maxresdefault.jpg" />
+    <None Remove="images\SI_Wii_SuperMarioGalaxy_image1600w copie.png" />
+    <None Remove="images\SI_Wii_SuperMarioGalaxy_image1600w.jpg" />
+    <None Remove="images\sm-joyconterms-fr-image912w.jpg" />
+    <None Remove="images\split-cta-system.png" />
+    <None Remove="images\ten2wi00a.jpg" />
+    <None Remove="images\wii-glamour-v1.png" />
+    <None Remove="images\wiimote.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\1200px-Wii_nunchuk_controller_side.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\champi 1 up.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\champi feu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\champi glace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\champi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\comete.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\EDJE.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\H2x1_generic_WiiU_image1280w.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\images.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\manette-nintendo-wii-wiimote-rvl-003 copie.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\maxresdefault.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\SI_Wii_SuperMarioGalaxy_image1600w copie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\SI_Wii_SuperMarioGalaxy_image1600w.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\sm-joyconterms-fr-image912w.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\split-cta-system.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\ten2wi00a.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\wii-glamour-v1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\wiimote.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\edge-firefox.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ObjetChampignon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="PersoMario1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

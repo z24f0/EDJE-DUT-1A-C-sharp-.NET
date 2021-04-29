@@ -1,0 +1,137 @@
+﻿<UserControl x:Class="projet.PageSpMarioGlx"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:projet"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    
+    <DockPanel Style="{StaticResource D}">
+
+        <ScrollViewer DockPanel.Dock="Top" Background="#1E0C46">
+            <ScrollViewer.Effect>
+                <DropShadowEffect/>
+            </ScrollViewer.Effect>
+
+            <StackPanel Margin="20">
+                <Image Source="/images/SI_Wii_SuperMarioGalaxy_image1600w.jpg" Height="150"/>
+
+                <Grid Style="{StaticResource fondgrid}" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Style="{StaticResource titre}" Text="Description du Jeu"/>
+                    <TextBlock Grid.Row="1" Style="{StaticResource normal}" Text="Super Mario Galaxie est un jeu de plateforme développé par Nintendo. Le jeu a été édité sur la console WII de novembre 2007, puis sur nintendo Switch en 2020. Dans la série des Super Mario, c'est le quatrieme jeu des plates-formes en 3D. L'histoire est centrée sur Mario et sa quête pour délivrer la princesse Peach, enlevée par le maléfique Bowser. Le jeu est composé de divers niveaux représentant chacun une galaxie. La gravitation est l'élément clé du gameplay. Le jeu est découpé en six dômes accessibles depuis la base flottante qu'on appelle ''Observatoire de la comète''. Ils donnent accès en tout à quinze grandes galaxies, l'équivalent de « mondes » ou de niveaux. Chacune a un thème défini, qui peut être par exemple une monde de lave, une maison hantée ou même des plaines enneigées !"/>
+                </Grid>
+
+
+                <Grid  Style="{StaticResource fondgrid}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource titre}" Text="Histoire"/>
+                        
+                    <TextBlock Style="{StaticResource normal}" Grid.Row="1" Text="Tous les cent ans, une comète traverse le ciel du royaume Champignon. Lors de son passage, elle déverse des milliers de fragment d'étoiles... Les Toads gardiens du royaume, s'arment alors de courage et ramassent les fragments d'étoile puis les rassemblent près du château Champignon, où ils fusionnent pour donner naissance à une super étoile. Pour souligner ce don du ciel, une fête est organisée. Dans sa grande bonté, la princesse Peach invite Mario et lui confie au passage qu'elle a quelque chose à lui donner. Fort de cette invitation, Mario se rend au château. Lorsqu'il arrive, il est émerveillé par la fête qui bat son plein. Tout semble se passer pour le mieux au village des Toads. Soudain, des boulets de feu détruisent la ville et des rayons de glace enferment les Toads dans des cristaux. Mario remarque le navire de Bowser qui se dirige vers le château !!!"/>
+                    <Image Grid.Column="1" Grid.Row="1" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center" Source="/images/comete.png" >
+                        <Image.Effect>
+                            <DropShadowEffect/>
+                        </Image.Effect>
+                    </Image>
+                    <TextBlock  Style="{StaticResource normal}" Grid.Row="2" Grid.ColumnSpan="2" Text="Le monstre kidnappe Peach ainsi que le château tout entier. Mario tente en vain de sauver Peach, mais Kamek, le bras droit de Bowser, l'en empêche. Mario est projeté dans l'espace et atterrit sur une planète inconnue. Il y rencontre un Luma, un petit personnage étoile, qui se change en lapin lunaire et se met à lui parler. Grâce à lui, Mario fait bientôt la rencontre de la mystérieuse princesse Harmonie, mère des étoiles. Elle lui ouvre les portes de la station orbitale, à partir de laquelle Mario aura accès aux différentes galaxies. Mario part alors à travers elles dans l'espoir de repeupler la station des Luma et de retrouver la trace de Peach et de Bowser"/>
+
+                </Grid>
+
+
+                <Grid  Style="{StaticResource fondgrid}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Style="{StaticResource titre}" Text="Personnage" />
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" >
+
+                        <Button Style="{StaticResource boutonPO}">
+                            <Image Style="{StaticResource imPO}" Source="/images/SI_Wii_SuperMarioGalaxy_image1600w copie.png" />
+                        </Button>
+
+                        <Button Style="{StaticResource boutonPO}">
+                            <Image Style="{StaticResource imPO}" Source="/images/SI_Wii_SuperMarioGalaxy_image1600w copie.png" />
+                        </Button>
+                    </StackPanel>
+                </Grid>
+
+                <Grid  Style="{StaticResource fondgrid}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Style="{StaticResource titre}" Text="Objets"/>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" >
+
+                        <Button Style="{StaticResource boutonPO}">
+                            <Image Style="{StaticResource imPO}" Source="/images/champi.png"/>
+                        </Button>
+
+                        <Button Style="{StaticResource boutonPO}">
+                            <Image Style="{StaticResource imPO}" Source="/images/champi feu.png" />
+                        </Button>
+                    </StackPanel>
+                </Grid>
+
+                <Grid Style="{StaticResource fondgrid}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Style="{StaticResource titre}" Text="Consoles" />
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Stretch" >
+
+                        <Image Style="{StaticResource image}" Source="/images/H2x1_generic_WiiU_image1280w.jpg" />
+                        <Image Style="{StaticResource image}" Source="/images/wii-glamour-v1.png" />
+                        <Image Style="{StaticResource image}" Source="/images/split-cta-system.png" />
+
+                    </StackPanel>
+                </Grid>
+
+                <Grid Style="{StaticResource fondgrid}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Style="{StaticResource titre}" Text="Autres jeux" />
+
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Style="{StaticResource boutonPO}" >
+                            <Image Style="{StaticResource image}" Source="/images/ten2wi00a.jpg" />
+                        </Button>
+                        <Button Style="{StaticResource boutonPO}">
+                            <Image Style="{StaticResource image}" Source="/images/SI_Wii_SuperMarioGalaxy_image1600w.jpg"/>
+                        </Button>
+                        <Button Style="{StaticResource boutonPO}">
+                            <Image Style="{StaticResource image}" Source="/images/maxresdefault.jpg" />
+                        </Button>
+
+                    </StackPanel>
+
+                </Grid>
+            </StackPanel>
+
+        </ScrollViewer>
+
+       
+    </DockPanel>
+</UserControl>
